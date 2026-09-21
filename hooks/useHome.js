@@ -41,7 +41,7 @@ export default function useHome() {
   const [activeSort, setActiveSort] = useState('recent');
 
   useEffect(() => {
-    axios.get('https://dummyjson.com/products?limit=100')
+    axios.get('https://dummyjson.com/products?limit=10')
       .then(({ data }) => {
         setProducts(data.products);
         const cats = ['all', ...new Set(data.products.map(p => p.category))];

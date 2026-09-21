@@ -11,12 +11,6 @@ import {
 import useHome, { catLabel, SORT_OPTIONS, toBRL } from '../hooks/useHome';
 import s, { PRIMARY, SUBTEXT } from '../styles/homeStyles';
 
-const PRIMARY = '#5B5FEF';
-const BG      = '#F2F2F2';
-const CARD    = '#FFF';
-const TEXT    = '#111';
-const SUBTEXT = '#777';
-
 export default function HomeScreen({ navigation }) {
   const {
     filtered, categories, selCat, setSelCat,

@@ -7,13 +7,7 @@ import {
     View
 } from 'react-native';
 import useDetail, { toBRL } from '../hooks/useDetail';
-import s, { PRIMARY, SUBTEXT, TEXT } from '../styles/detailStyles';
-
-const PRIMARY = '#5B5FEF';
-const BG      = '#F2F2F2';
-const CARD    = '#FFF';
-const TEXT    = '#111';
-const SUBTEXT = '#777';
+import s, { TEXT } from '../styles/detailStyles';
 
 const SpecRow = ({ label, value }) => (
   <View style={s.specRow}>

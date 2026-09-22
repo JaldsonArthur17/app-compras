@@ -17,7 +17,7 @@ Projeto de aplicação mobile desenvolvida com React Native e Expo que, segundo 
 ## Estrutura
 ```
 hooks/        → lógica de estados e requisições
-screens/      → componentes de tela (JSX)
+screens/      → componentes de tela 
 styles/       → estilos separados por tela
 App.js        → configuração de navegação
 ```
